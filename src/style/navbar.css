@@ -1,0 +1,13 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    width: 100vw;
+    height: 6vh;
+    padding-top: 25px;
+}
+.navItem{
+    font-family: Copperplate;
+    margin-right: 10px;
+    margin-left: 25px;
+}
