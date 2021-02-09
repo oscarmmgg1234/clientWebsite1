@@ -1,7 +1,5 @@
-.aboutC{
+.priceC{
     height: 100vh;
     width: 100%;
     background-color: ghostwhite;
-    position: relative;
-    display: flex;
 }

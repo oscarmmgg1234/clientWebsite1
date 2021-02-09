@@ -1,7 +1,57 @@
 .homeC{
-    background-color: darkgrey;
+    background-color: ghostwhite;
     width: 100%;
     height: 100vh;
     position: relative;
     display: flex;
+}
+#rectangle{
+    position: absolute;
+    background-color: #FFE600;
+    width: 40vw;
+    height: 60vh;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+#headerC{
+
+    position: absolute;
+    z-index: 20;
+    top: 27%;
+    right: 40%;
+}
+.header{
+    font-family: Helvetica-bold;
+    font-size: 72px;
+    color: #151E69;
+    width: 45vw;
+    height: 20vh;
+}
+.subHeader{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #151E69;
+    width: 40vw;
+    height: 20vh;
+    padding-left: 50px;
+
+}
+#phone{
+    width: 25px;
+    height: 25px;
+}
+.contact{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 80%;
+    right: 75%;
+    z-index: 20;
+}
+#number{
+    font-family: Helvetica-bold;
+    font-size: 30px;
+    color: #151E69;
 }
