@@ -1,9 +1,11 @@
 import React from 'react';
+import '../style/home.css'
 
 const Home = () => {
     return(
     <>
-</>git
+        <div class={'homeC'}></div>
+</>
     );
 };
 
